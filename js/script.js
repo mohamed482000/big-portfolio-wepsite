@@ -734,6 +734,8 @@ window.addEventListener('resize', function () {
     fixedSection.style.width = '0px'
     firstSection.style.marginLeft = '0px'
     allPageContent.style.marginLeft = '0px'
+    menuIcone.innerHTML = '<i class="fa-solid fa-bars"></i>'
+
   }
 })
 function removeFixedSection() {
